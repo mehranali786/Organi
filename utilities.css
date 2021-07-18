@@ -1,0 +1,107 @@
+:root{
+    --primary-color: #000;
+    --secondary-color: #228B22;
+    --grey-color: #eaecec;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+   margin: 0; 
+   padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.m{
+    margin: 1rem;
+}
+
+.m2{
+    margin: 1.5rem;
+}
+.m3{
+    margin: 2rem;
+}
+.m4{
+    margin: 3rem;
+}
+.m5{
+    margin: 4rem;
+}
+
+
+
+.m{
+    margin: 1rem 0;
+}
+
+.m2{
+    margin: 1.5rem 0;
+}
+.m3{
+    margin: 2rem 0;
+}
+.m4{
+    margin: 3rem 0;
+}
+.m5{
+    margin: 4rem 0;
+}
+
+
+
+.p{
+    padding: 1rem;
+}
+
+.p2{
+    padding: 1.5rem;
+}
+.p3{
+    padding: 2rem;
+}
+.p4{
+    padding: 3rem;
+}
+.p5{
+    padding: 4rem;
+}
+
+.py{
+    padding: 1rem 0;
+}
+
+.py2{
+    padding: 1.5rem 0;
+}
+.py3{
+    padding: 2rem 0;
+}
+.py4{
+    padding: 3rem 0;
+}
+.py5{
+    padding: 4rem 0;
+}

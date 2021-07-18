@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c77dc29510.js" crossorigin="anonymous"></script>
+    <title>Organi</title>
+</head>
+<body>
+
+    <!-- header Section -->
+
+    <header id="navLinks"> 
+        
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+            
+            <div class="top-header row" >
+            
+            
+            <div class="header-left"> 
+                <ul>
+                    <li> <i class="fas fa-envelope"></i> hello@colorlib.com </li>
+                    <li> Free Shipping for all Order of $99 </li>
+                </ul>
+            </div>
+
+        
+            <div class="header-right">
+                <span class="social-icons">
+
+                   
+
+                    <a href="#"><i class="fab fa-facebook "></i> </a>
+                    <a href="#"><i class="fab fa-twitter"></i> </a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </span>
+                <span class="language">
+                    <img src="images/1200px-Flag_of_the_United_States.svg.png" alt="English Languages">
+                    <span> English</span>
+                    <i class="fas fa-caret-down"></i>
+                </span>
+
+                <span class="login">
+                     <a href="#"> Login <i class="fas fa-sign-in-alt"></i></a>
+                </span>
+            </div>
+
+            
+            
+        </div>
+    </header>
+    <div class="show-menu">
+        <i class="fas fa-bars" onclick="showMenu()"></i>       
+    </div>
+
+    <div class="container row">
+
+            <!-- logo section -->
+
+            <div class="logo"> 
+                <img src="images/download.webp" alt="Organi">
+            </div>
+
+            <nav class="navbar"> 
+                <ul>
+                    <li> <a href="index.html"> Home </a></li>
+                    <li> <a href="#"> Shop </a></li>
+                    <li> <a href="#"> Page </a></li>
+                    <li> <a href="#"> Blog </a></li>
+                    <li> <a href="#"> Contact </a></li>
+                </ul>
+                <div class="shopping-list">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    items: <b>150$</b>  
+                </div>
+            </nav>
+            
+
+            <!-- sidebar / hero section -->
+
+            <aside class="sidebar"> 
+                <div class="side-menu">
+                    <i class="fas fa-bars" onclick="closeMenu()"></i>
+                    <h4> All Departments</h4>
+                    <i class="fas fa-caret-down" onclick="openMenu()"></i>
+                    <div class="items-info" >
+                        <ul id="sideBar">
+                            <li> <a href="#"> Fresh Meat </a></li>
+                            <li> <a href="#"> Vegetables </a></li>
+                            <li> <a href="#"> Fruits & Nuts Gifts </a></li>
+                            <li> <a href="#"> Fresh Berries </a></li>
+                            <li> <a href="#"> Ocean Foods </a></li>
+                            <li> <a href="#"> Butter & Eggs </a></li>
+                            <li> <a href="#"> Fast Food </a></li>
+                            <li> <a href="#"> Fresh Onion</a></li>
+                            <li> <a href="#"> Papaya & Crisps</a></li>
+                            <li> <a href="#"> Oatmeal</a></li>
+                            <li> <a href="#"> Fresh Banana</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+
+                <!-- hero search  -->
+
+            <div class="hero-search">
+                <div>
+                <h4>All Categories<h4>
+                </div>
+                <i class="fas fa-caret-down"></i>
+
+                <form action="">
+
+                <input type="search" name="search" placeholder="What do you Need?">
+                <a href="#" class="btn"> Search </a>
+                </form>
+                
+            </div>
+
+
+            <div class="support">
+                <i class="fas fa-phone"></i>
+                <span class="number"> <b>+65 11.188.888 </b>
+                    <p> 24 hours support  </p>
+                </span>
+                
+            </div>
+
+                <!-- hero - section -->
+            
+            <main class="hero"> 
+                <div class="hero-text">
+                    <h4>Fresh Fruits</h4>
+                    <h1> Vegetable <br> 100% Organic</h1>
+                    <p>Free Pickup & Delivery Available</p>
+                    <a href="#" > SHOP NOW </a>
+                </div>
+            </main>
+
+            <!-- products section -->
+
+    <section class="products">
+        <div class="box"> 
+            <img src="images/red-tomatoes-33.png" style="width: 60%;" alt="">
+            <h3> Tomatoes</h3>
+        </div>
+        <div class="box"> 
+            <img src="images/meat.png" style="width: 60%;" alt="">
+            <h3> Meat</h3>
+        </div>
+        <div class="box"> 
+            <img src="images/onions.png" style="width: 60%;" alt="">
+            <h3> Tomatoes</h3>
+        </div>
+        <div class="box"> 
+            <img src="images/oranges-5.png" style="width: 60%;" alt="">
+            <h3> Oranges </h3>
+        </div>
+    </section>
+
+        <!-- featured-products -->
+
+        <section class="featured-products">
+            <h1> Featured Products </h1>
+            <nav> 
+                <ul>
+                    <li> <a href="#"> All </a></li>
+                    <li> <a href="#"> Oranges </a></li>
+                    <li> <a href="#"> Fresh Meat </a></li>
+                    <li> <a href="#"> Vegetables </a></li>
+                    <li> <a href="#"> Fast Food </a></li>
+
+                </ul>
+            </nav>
+            <div class="box-1">
+                <div class="box"> 
+                    <img src="images/24646-6-vegetable-photos.png" style="width: 200px;" alt="">
+
+                    <div class="buy-icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    
+                    <div class="tag">
+                        <p> Crab Pool City</p>
+                        <h1> 30$ </h1>
+                    </div>
+                </div>
+                <div class="box"> 
+                    <img src="images/beet_PNG28.png" style="width: 200px;" alt="">
+
+                    <div class="buy-icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    
+                    <div class="tag">
+                        <p> Crab Pool City</p>
+                        <h1> 30$ </h1>
+                    </div>
+                </div>
+                <div class="box"> 
+                    <img src="images/strawberry_PNG2601.png" style="width: 160px;" alt="">
+
+                    <div class="buy-icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    
+                    <div class="tag">
+                        <p> Crab Pool City</p>
+                        <h1> 30$ </h1>
+                    </div>
+                </div>
+                <div class="box"> 
+                    <img src="images/fish-meat.png" style="width: 170px;" alt="">
+
+                    <div class="buy-icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    
+                    <div class="tag">
+                        <p> Crab Pool City</p>
+                        <h1> 30$ </h1>
+                    </div>
+                </div>
+                    
+            </div>
+            <div class="box-1">
+                <div class="box"> 
+                    <img src="images/oranges-5.png" style="width: 150px;" alt="">
+
+                    <div class="buy-icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    
+                    <div class="tag">
+                        <p> Crab Pool City</p>
+                        <h1> 30$ </h1>
+                    </div>
+                </div>
+                <div class="box"> 
+                    <img src="images/burger.png" style="width: 180px;" alt="">
+
+                    <div class="buy-icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    
+                    <div class="tag">
+                        <p> Crab Pool City</p>
+                        <h1> 30$ </h1>
+                    </div>
+                </div>
+                <div class="box"> 
+                    <img src="images/apple.png" style="width: 200px;" alt="">
+
+                    <div class="buy-icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    
+                    <div class="tag">
+                        <p> Crab Pool City</p>
+                        <h1> 30$ </h1>
+                    </div>
+                </div>
+                <div class="box"> 
+                    <img src="images/juice.png" style="width: 160px;" alt="">
+
+                    <div class="buy-icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    
+                    <div class="tag">
+                        <p> Crab Pool City</p>
+                        <h1> 30$ </h1>
+                    </div>
+                </div>
+                    
+            </div>
+            
+        </section>
+
+        <!-- advertisement product -->
+
+        <section class="products-adv"> 
+            <div class="banner1">
+                <img src="images/xbanner1.webp" alt="">
+            </div>
+
+            <div class="banner2">
+                <img src="images/xbanner-2.webp" alt="">
+            </div>
+        
+        </section>
+
+        <!-- products slide -->
+
+        <section class="products-slide">
+
+            <div class="latest-products">
+                <div class="header-text">
+                    <h2> Latest Products</h2>
+                    <span class="arrows">
+                        <i class="fas fa-arrow-left"></i>
+                        <i class="fas fa-arrow-right"></i>
+                    </span>
+                </div>
+                
+                <div class="item-1">
+                    
+                    <img src="images/apple copy 2.jpg" style="width: 50%;" alt="apple">
+                    
+                    <div class="tag-p">
+                        <p>Crab Pool City </p>
+                        <h4> 30$ </h4>
+                    </div>
+                </div>
+                
+                <div class="item-2">
+                    
+                    <img src="images/apple.jpg" style="width: 50%;" alt="apple">
+                    
+                    <div class="tag-p">
+                        <p>Crab Pool City </p>
+                        <h4> 30$ </h4>
+                    </div>
+                </div>
+
+                <div class="item-3">
+                    
+                    <img src="images/orange.jpg" style="width: 50%;" alt="apple">
+                    
+                    <div class="tag-p">
+                        <p>Crab Pool City </p>
+                        <h4> 30$ </h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-products">
+
+                <div class="header-text">
+                    <h2> Top Products</h2>
+                    <span class="arrows">
+                        <i class="fas fa-arrow-left"></i>
+                        <i class="fas fa-arrow-right"></i>
+                    </span>
+                </div>
+                
+                <div class="item-1">
+                    
+                    <img src="images/apple copy 2.jpg" style="width: 50%;" alt="apple">
+                    
+                    <div class="tag-p">
+                        <p>Crab Pool City </p>
+                        <h4> 30$ </h4>
+                    </div>
+                </div>
+                
+                <div class="item-2">
+                    
+                    <img src="images/apple.jpg" style="width: 50%;" alt="apple">
+                    
+                    <div class="tag-p">
+                        <p>Crab Pool City </p>
+                        <h4> 30$ </h4>
+                    </div>
+                </div>
+
+                <div class="item-3">
+                    
+                    <img src="images/orange.jpg" style="width: 50%;" alt="apple">
+                    
+                    <div class="tag-p">
+                        <p>Crab Pool City </p>
+                        <h4> 30$ </h4>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="review-products">
+                <div class="header-text">
+                    <h2> Review Products</h2>
+                    <span class="arrows">
+                        <i class="fas fa-arrow-left"></i>
+                        <i class="fas fa-arrow-right"></i>
+                    </span>
+                </div>
+                
+                <div class="item-1">
+                    
+                    <img src="images/apple copy 2.jpg" style="width: 50%;" alt="apple">
+                    
+                    <div class="tag-p">
+                        <p>Crab Pool City </p>
+                        <h4> 30$ </h4>
+                    </div>
+                </div>
+                
+                <div class="item-2">
+                    
+                    <img src="images/apple.jpg" style="width: 50%;" alt="apple">
+                    
+                    <div class="tag-p">
+                        <p>Crab Pool City </p>
+                        <h4> 30$ </h4>
+                    </div>
+                </div>
+
+                <div class="item-3">
+                    
+                    <img src="images/orange.jpg" style="width: 50%;" alt="apple">
+                    
+                    <div class="tag-p">
+                        <p>Crab Pool City </p>
+                        <h4> 30$ </h4>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+           
+        <!-- Blog Area -->
+
+            <section class="blog"> 
+                <div class="blog-heading">
+                    <h1>From The Blog</h1>
+                </div>
+
+                <div class="blog-box">
+
+                    <div class="blog-1">
+                        <img src="images/xblog-1.webp" alt="">
+                        <div class="date-comment">
+                            <span class="date">
+                            <i class="far fa-calendar"></i>  May 4, 2020
+                            </span>
+                            <span class="comments">
+                            <i class="far fa-comment"></i> 5
+                            </span>
+                        </div>
+                        <h2> Cooking tips make cooking simple</h2>
+                        <p class="blog-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Enim amet minima placeat dolorem ipsam corporis doloribus vero!
+                        Illo, ipsam quisquam!</p>
+                    </div>
+
+                    <div class="blog-2">
+                        <img src="images/xblog-2.webp" alt="">
+                        <div class="date-comment">
+                            <span class="date">
+                            <i class="far fa-calendar"></i>  May 4, 2020
+                            </span>
+                            <span class="comments">
+                            <i class="far fa-comment"></i> 5
+                            </span>
+                        </div>
+                        <h2> 6 Ways to Prepare Breakfast for 30 days</h2>
+                        <p class="blog-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Enim amet minima placeat dolorem ipsam corporis doloribus vero!
+                        Illo, ipsam quisquam!</p>
+                    </div>
+
+                    <div class="blog-3">
+                        <img src="images/xblog-3.webp" alt="">
+                        <div class="date-comment">
+                            <span class="date">
+                            <i class="far fa-calendar"></i>  May 4, 2020
+                            </span>
+                            <span class="comments">
+                            <i class="far fa-comment"></i> 5
+                            </span>
+                        </div>
+                        <h2> Visit the clean farm in the US</h2>
+                        <p class="blog-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Enim amet minima placeat dolorem ipsam corporis doloribus vero!
+                        Illo, ipsam quisquam!</p>
+                    </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer Section -->
+
+    <footer>
+        <div class="row">
+            <div class="bottom">
+                <div class="section-1">
+                    <div class="info"> 
+                        <a href="#"> <img src="images/download.webp" style="width: 30%;" alt=""></a>
+                        <p>    
+                        Address: 60-49 Road 11378 New York <br>
+                        Phone: +65 11.188.888 <br>
+                        Email: hello@colorlib.com
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-2">
+                    <div class="usefull-links"> 
+                        <h2>Usefull Links</h2>
+                        <ul>
+                            <li> <a href="#"> About Us </a></li>
+                            <li> <a href="#"> About Our Shop </a></li>
+                            <li> <a href="#"> Secure Shopping </a></li>
+                            <li> <a href="#"> Delivery Information </a></li>
+                            <li> <a href="#"> Privacy Policy </a></li>
+                        </ul>
+                        <ul>
+                            <li> <a href="#"> Who We Are </a></li>
+                            <li> <a href="#"> Project </a></li>
+                            <li> <a href="#"> Contact </a></li>
+                            <li> <a href="#"> Innovation </a></li>
+                            <li> <a href="#"> Testimonials </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section-3">
+                    <div class="news-letter">
+                    <h2>join Our News news-letter</h2>
+                    <p>Get Email updates about our latest shop and special offers.</p>
+                    </div>
+                    
+                    <div class="subscribe-form">
+                        <form action="get"></form>
+                            <input type="email"  placeholder="Enter Your Email" >
+                            <button> <a href="#"> Subscribe </a></button>
+                        </form>
+                    </div>
+                    <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook "></i> </a>
+                    <a href="#"><i class="fab fa-twitter"></i> </a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+   
+</body>
+
+<script src="app.js">
+
+    </script>
+
+</html>
